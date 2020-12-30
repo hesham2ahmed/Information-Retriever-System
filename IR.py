@@ -35,7 +35,9 @@ def getTableForTerms(list_query):
         global auxiliary_table
         for item in list_query:
             result = auxiliary_table[item]
-            print(item, ":", result, "\n")
+            print("\n", item, ":")
+            for key, value in result.items():
+                print("\n", key, ":", value)
     except:
         return
 
