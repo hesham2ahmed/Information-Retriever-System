@@ -2,6 +2,7 @@ files/
 data/
 testcases/
 .vs/
+index.py
 
 
 # Byte-compiled / optimized / DLL files
